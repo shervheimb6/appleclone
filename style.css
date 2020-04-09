@@ -1,0 +1,73 @@
+body  {
+    font-size: 16px;
+}
+
+nav {
+    overflow: hidden;
+    background-color:black;
+    position: static;
+    top: 75px;
+    width: 100%;
+}
+nav a {
+    float: left;
+    display: block;
+    color:rgb(155, 151, 151);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.banner1 {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 75%;
+}
+
+.top {
+    display: block;
+}
+
+p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight:600;
+}
+
+.search-bar  {
+    text-align:center;
+}
+
+/*.grid  {
+    display:flex;
+    position: absolute;
+}*/
+
+.grid {
+    display:grid;
+    grid-gap: 5px;
+    grid-template: 2fr 1fr 1fr /
+    1fr 1fr 1fr;
+    grid-auto-rows: 80px;
+    grid-auto-columns:75px;
+    column-gap: 75px;
+    row-gap: 75px;
+    justify-content: space-between;
+    margin-top: 290px;
+    margin-left:15%;
+    
+        
+}
+.a  {
+    width: 55%;
+}
+
+
